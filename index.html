@@ -69,8 +69,8 @@ ensures backward compatibility
 <hr>
 <div>
 <h2>Microdata</h2>
-- is a WHATWG HTML specification used to nest metadata existing content on web pages
-- search engines, web crawlers and browsers can exact and process microdata
+- is a WHATWG HTML specification used to nest metadata existing content on web pages<br>
+- search engines, web crawlers and browsers can exact and process microdata<br>
 - extracted info is used to provide a richer browsing experience for users.
 
 
@@ -80,7 +80,59 @@ ensures backward compatibility
 	<p>My name is: <span itepprop="name">Rabi Krishna Yadav</span>. I live in <span itemprop="city">Janakpur</span>, <span itemprop="country">Nepal</span></p>
 </div>
 </div>
+<hr>
+<div>
+	<h3>New Semantics</h3>
+	
+	<ol type="1">
+		<li>main</li>
+		<li>section</li>
+		<li>article</li>
+		<li>header</li>
+		<li>footer</li>
+		<li>aside</li>
+		<li>nav</li>
+		<li>figure</li>
+		<li>cite</li>
+		<li>menu</li>
+	</ol>
 
+<h4>Example</h4>
+
+<header role="banneer"><h2>This is the example of header</h2></header>
+
+<nav>
+	<ul>
+		<li><a href="#">HTML</a></li>
+		<li><a href="#">CSS</a></li>
+		<li><a href="#">HTML5</a></li>
+	</ul>
+</nav>
+
+<article>
+	<section>
+		<p>Once article can have multiple section</p>
+	</section>
+	<section>
+		<p>Just another section</p>
+	</section>
+</article>
+
+
+<aside>
+	<p>This is the example of aside</p>
+</aside>
+
+<figure align="center">
+	<img src="images/logo.jpg" alt="Logo" width="200px" height="100px">
+	<img src="images/banner.jpg" alt="banneer" width="200px" height="100px">
+</figure>
+
+<footer>
+	<p>Created by<a href="https://rabikrishnayadav.com.np">Rabi Kr Yadav</a></p>
+</footer>
+
+</div>
 
 
 
